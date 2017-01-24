@@ -1,9 +1,7 @@
-ALTER TABLE
+ALTER TABLE table_name
+ADD category
 
-UPDATE [Misc Invoice Monthly Data] SET [Misc Invoice Monthly Data].[Misc Invoice Treatment] = "Oct Received - Qualified"
-WHERE ((([Misc Invoice Monthly Data].[Misc Invoice Treatment]) Is Null) 
-AND (([Misc Invoice Monthly Data].[Previously Invoiced]) Is Null) 
-AND (([Misc Invoice Monthly Data].Warehouse_Grade)="A" 
-Or ([Misc Invoice Monthly Data].Warehouse_Grade)="B" 
-Or ([Misc Invoice Monthly Data].Warehouse_Grade)="C") 
-AND (([Misc Invoice Monthly Data].[Warehouse Graded Date])>#10/2/2016#));
+UPDATE table_name
+set category= "Vagina"
+WHERE salary <= 50000 
+AND gender = 'female; 
